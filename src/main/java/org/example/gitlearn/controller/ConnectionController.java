@@ -22,14 +22,21 @@ public class ConnectionController {
     }
     @GetMapping("/v2")
     public ResponseEntity getV2(){
-        System.out.println("this is v1 version");
+        System.out.println("this is v2 version");
 
-        return ResponseEntity.ok("success, this is v1 version!");
+        return ResponseEntity.ok("success, this is v2 version!");
     }
     @GetMapping("/v3")
     public ResponseEntity getV3(){
-        System.out.println("this is v1 version");
+        System.out.println("this is v3 version");
 
-        return ResponseEntity.ok("success, this is v1 version!");
+        return ResponseEntity.ok("success, this is v3 version!");
     }
+    @GetMapping("/v4")
+    public ResponseEntity getV4(){
+        System.out.println("this is v4 version");
+        System.out.println("v4 is better!");
+        return ResponseEntity.ok("success, this is v4 version!");
+    }
+
 }
