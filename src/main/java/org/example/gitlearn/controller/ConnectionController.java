@@ -20,4 +20,10 @@ public class ConnectionController {
 
         return ResponseEntity.ok("success, this is v1 version!");
     }
+    @GetMapping("/v2")
+    public ResponseEntity getV2(){
+        System.out.println("this is v1 version");
+
+        return ResponseEntity.ok("success, this is v1 version!");
+    }
 }
