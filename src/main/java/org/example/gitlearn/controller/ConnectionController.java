@@ -35,7 +35,7 @@ public class ConnectionController {
     @GetMapping("/v4")
     public ResponseEntity getV4(){
         System.out.println("this is v4 version");
-
+        System.out.println("v4 is better!");
         return ResponseEntity.ok("success, this is v4 version!");
     }
 
