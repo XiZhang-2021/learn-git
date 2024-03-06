@@ -43,7 +43,13 @@ public class ConnectionController {
         System.out.println("this is v5 version");
         System.out.println("v5 is better!");
         System.out.println("there is something new in v5");
-        return ResponseEntity.ok("success, this is v4 version!");
+        return ResponseEntity.ok("success, this is v5 version!");
+    }
+    @GetMapping("/v6")
+    public ResponseEntity getV6(){
+        System.out.println("this is v6 version");
+
+        return ResponseEntity.ok("success, this is v6 version!");
     }
 
 }
