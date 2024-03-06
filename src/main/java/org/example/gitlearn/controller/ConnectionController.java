@@ -48,7 +48,7 @@ public class ConnectionController {
     @GetMapping("/v6")
     public ResponseEntity getV6(){
         System.out.println("this is v6 version");
-
+        System.out.println("this is the change in main branch");
         return ResponseEntity.ok("success, this is v6 version!");
     }
 
