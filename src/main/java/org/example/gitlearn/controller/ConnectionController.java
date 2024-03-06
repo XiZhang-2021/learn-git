@@ -49,6 +49,7 @@ public class ConnectionController {
     public ResponseEntity getV6(){
         System.out.println("this is v6 version");
         System.out.println("this is change in feature2 branch");
+        System.out.println("this is the second change in feature2 branch");
         return ResponseEntity.ok("success, this is v6 version!");
     }
 
