@@ -55,6 +55,8 @@ public class ConnectionController {
 
         System.out.println("this is the second change in feature2 branch");
 
+        System.out.println("test merge");
+
         return ResponseEntity.ok("success, this is v6 version!");
     }
 
