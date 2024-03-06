@@ -57,6 +57,8 @@ public class ConnectionController {
 
         System.out.println("test merge");
 
+        System.out.println("add pull request");
+
         return ResponseEntity.ok("success, this is v6 version!");
     }
 
