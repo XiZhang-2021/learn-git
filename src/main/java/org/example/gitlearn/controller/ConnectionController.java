@@ -74,5 +74,11 @@ public class ConnectionController {
 
         return ResponseEntity.ok("success, this is v8 version!");
     }
+    @GetMapping("/v9")
+    public ResponseEntity getV9(){
+        System.out.println("this is v9 version");
+
+        return ResponseEntity.ok("success, this is v9 version!");
+    }
 
 }
